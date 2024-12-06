@@ -79,3 +79,4 @@ if (!two) return api.sendMessage("Please tag 1 person", threadID, messageID);
 else {
       return makeImage({ one, two }).then(path => api.sendMessage({ body: `${ae[Math.floor(Math.random() * ae.length)]}\n Horimism to you after being kissing is ${hc} %\n + ${((hc)*rd)} $`, attachment: fs.createReadStream(path)}, threadID, () => fs.unlinkSync(path), messageID));
 }
+}
