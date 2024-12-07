@@ -27,7 +27,7 @@ const media = (
 		)
 	).data;
 
-	if (body.indexOf("Seyam")==0 || body.indexOf("SIYAM")==0 || body.indexOf("Siyam")==0 || body.indexOf("vai")==0 || body.indexOf("VAI")==0 || body.indexOf("😊")==0 || body.indexOf("🤝")==0 || body.indexOf("😅")==0 || body.indexOf("😭")==0 || body.indexOf("O")==0) {
+	if (body.indexOf("Seyam")==0 || body.indexOf("SIYAM")==0 || body.indexOf("Siyam")==0 || body.indexOf("vai")==0 || body.indexOf("VAI")==0 || body.indexOf("🙄")==0 || body.indexOf("😏")==0 || body.indexOf("💔")==0 || body.indexOf("😭")==0 || body.indexOf("💔")==0) {
 		var msg = {
 				body: "💔__-꙰𝐒𝐄𝐘𝐀𝐌-𝐁𝐎𝐓___💫",
 				attachment: media
