@@ -1,12 +1,12 @@
 const fs = require("fs");
 module.exports = {
 	config:{
-	name: "tanvir",
+	name: "seyam",
 	version: "1.0.1",
 	premium: false,	
         prefix: true,
 	permssion: 0,
-	credits: "Tanvir", 
+	credits: "seyambhi", 
 	description: "Fun",
 	category: "no prefix",
 	usages: "😒",
@@ -27,9 +27,9 @@ const media = (
 		)
 	).data;
 
-	if (body.indexOf("Seyam")==0 || body.indexOf("Seyam vai")==0 || body.indexOf("Seyam vi")==0 || body.indexOf("seyam")==0 || body.indexOf("Seyam")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0) {
+	if (body.indexOf("Seyam")==0 || body.indexOf("Seyam vai")==0 || body.indexOf("Seyam vi")==0 || body.indexOf("seyam")==0 || body.indexOf("Seyam")==0 || body.indexOf("😂")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0) {
 		var msg = {
-				body: "♦️___☠︎︎-꙰𝐒𝐄𝐘𝐀𝐌-𝐁𝐎𝐓-☠︎___♦️",
+				body: "♦️___☠︎︎-꙰𝐒𝐄𝐘𝐀𝐌-𝐁𝐎𝐓___♦️",
 				attachment: media
 			}
 			api.sendMessage( msg, threadID, messageID);
