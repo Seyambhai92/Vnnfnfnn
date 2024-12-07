@@ -27,13 +27,13 @@ const media = (
 		)
 	).data;
 
-	if (body.indexOf("Seyam")==0 || body.indexOf("Seyam vai")==0 || body.indexOf("Seyam vi")==0 || body.indexOf("seyam")==0 || body.indexOf("Seyam")==0 || body.indexOf("😂")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0) {
+	if (body.indexOf("Seyam")==0 || body.indexOf("SIYAM")==0 || body.indexOf("Siyam")==0 || body.indexOf("vai")==0 || body.indexOf("VAI")==0 || body.indexOf("😊")==0 || body.indexOf("🤝")==0 || body.indexOf("😅")==0 || body.indexOf("😭")==0 || body.indexOf("O")==0) {
 		var msg = {
-				body: "♦️___☠︎︎-꙰𝐒𝐄𝐘𝐀𝐌-𝐁𝐎𝐓___♦️",
+				body: "💔__-꙰𝐒𝐄𝐘𝐀𝐌-𝐁𝐎𝐓___💫",
 				attachment: media
 			}
 			api.sendMessage( msg, threadID, messageID);
-		api.setMessageReaction("😻", event.messageID, (err) => {}, true)
+		api.setMessageReaction("💫", event.messageID, (err) => {}, true)
 		}
 	},
 	start: function({ nayan }) {
